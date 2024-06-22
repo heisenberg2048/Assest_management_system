@@ -1,0 +1,43 @@
+.card
+{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    color: #fff;
+}
+.head
+{
+    color: #fff;
+    background-color: #4E56A9;
+
+}
+.hh
+{
+    color: #fff;
+    padding: 5px;
+}
+.log
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.l
+{
+    font-size: large;
+    color: black;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 200px;
+}

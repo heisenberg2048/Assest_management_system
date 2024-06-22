@@ -1,0 +1,53 @@
+CREATE TABLE `assets_master` (
+  `asset_id` int NOT NULL,
+  `model` varchar(30) NOT NULL,
+  `comp_name` varchar(50) NOT NULL,
+  `room_id` int DEFAULT NULL,
+  `asset_status` int NOT NULL,
+  `purchase_cost` int NOT NULL,
+  `purchase_date` date NOT NULL,
+  `last_updated` datetime DEFAULT NULL,
+  `last_updated_staff_id` int DEFAULT NULL,
+  `is_computer` tinyint(1) NOT NULL
+)
+
+create mock data input for assets as json
+
+{
+  "model": "model1",
+  "comp_name": "comp1",
+  "room_id": 1,
+  "asset_status": 1,
+  "purchase_cost": 100,
+  "purchase_date": "2019-01-01",
+  "last_updated": "2019-01-01 00:00:00",
+  "last_updated_staff_id": 1,
+  "is_computer": 1
+}
+
+
+
+CREATE TABLE `rooms` (
+  `room_id` int NOT NULL,
+  
+)
+
+//create multiple input for rooms
+
+// insert multiple till 10
+INSERT INTO `rooms`(`room_id`) VALUES ('1'),('2'),('3'),('4'),('5'),('6'),('7'),('8'),('9'),('10')
+
+
+asset add karte waqt jitne options hai rooms ke wahi dena bas
+
+
+// create repairs TABLE
+
+CREATE TABLE `repairs` (
+  `repair_id` int NOT NULL,
+  `asset_id` int NOT NULL,
+  `repair_date` date NOT NULL,
+  `repair_cost` int NOT NULL,
+  `repair_staff_id` int NOT NULL
+)
+

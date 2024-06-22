@@ -1,0 +1,11 @@
+.main {
+    width: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.layout
+{
+    display: flex;
+    flex-direction: row;
+}

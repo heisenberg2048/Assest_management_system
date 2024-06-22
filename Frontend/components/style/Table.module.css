@@ -1,0 +1,30 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+.table
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.control
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+.layout {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+}
